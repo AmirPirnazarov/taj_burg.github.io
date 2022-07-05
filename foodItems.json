@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Сырная",
+    "price": 30,
+    "imgLink": "image/3.png"
+  },
+  {
+    "name": "Донер",
+    "price": 30,
+    "imgLink": "image/1.png"
+  },
+  {
+    "name": "Микс BBQ",
+    "price": 25,
+    "imgLink": "image/2.png"
+  },
+  {
+    "name": "Альфредо",
+    "price": 40,
+    "imgLink": "image/4.png"
+  },
+  {
+    "name": "Мясная",
+    "price": 40,
+    "imgLink": "image/5.png"
+  },
+  {
+    "name": "Салями",
+    "price": 40,
+    "imgLink": "image/6.png"
+  }
+]
+
