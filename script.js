@@ -8,7 +8,7 @@ const cartFurtherButton = document.querySelector('.cart__further');
 
 Telegram.WebApp.ready()
 configureThemeColor(Telegram.WebApp.colorScheme);
-configureMainButton({text: 'view cart', color: '#008000', onclick: mainButtonClickListener});
+configureMainButton({text: 'Корзина', color: '#008000', onclick: mainButtonClickListener});
 Telegram.WebApp.MainButton.show();
 
 function mainButtonClickListener() {
@@ -230,7 +230,7 @@ function decrementFoodItemCount(foodItem) {
     foodItemCountElement.textContent = foodItem.dataset.count;
 }
 
-const formatter = new Intl.NumberFormat('en-US', {style: 'currency', currency: 'TJS'});
+const formatter = new Intl.NumberFormat('ru-TJ', {style: 'currency', currency: 'TJS'});
 
 function parseFoodItemPrice(price) {
     return parseFloat(price.replaceAll(/\$/g, ''));
